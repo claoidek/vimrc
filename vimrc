@@ -1,5 +1,7 @@
 "
-scriptencoding utf-o $MYVIMRC
+scriptencoding utf-8
+set encoding=utf-8
+set fileencoding=utf-8
 
 " First clear any existing autocommands:
 autocmd!
@@ -143,9 +145,6 @@ noremap <leader>7 7gt
 noremap <leader>8 8gt
 noremap <leader>9 9gt
 noremap <leader>0 :tablast<cr>
-
-" Allow unicode characters
-set fileencoding=utf-8
 
 " Disable arrow keys in normal mode
 noremap <Up> <Nop>
