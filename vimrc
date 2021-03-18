@@ -124,6 +124,8 @@ command! W  write
 command! Q  quit
 command! Wq write|quit
 command! WQ write|quit
+command! Qa quitall
+command! QA quitall
 
 " Define new filetype which is just a text file with C style comments
 au BufRead,BufNewFile *.ctxt set filetype=c
