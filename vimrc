@@ -93,7 +93,8 @@ colorscheme slate
 set number
 
 " Show line numbers relative to current line
-set relativenumber
+" Disabled on ARCHER because vim isn't up to date
+" set relativenumber
 
 " Highlight current line
 set cursorline
@@ -102,7 +103,7 @@ set cursorline
 let loaded_matchparen=1
 
 " Keep number of lines above and below cursor
-set scrolloff=5
+set scrolloff=999
 
 " Swap g_ and $ functionality
 nmap $ g_
@@ -168,3 +169,6 @@ set nrformats-=octal
 
 " Disable Ctrl-Z
 nnoremap <c-z> <nop>
+
+" Shortcut for autocompletion
+noremap <C-c> <C-x><Tab>
